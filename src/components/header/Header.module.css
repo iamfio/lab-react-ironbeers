@@ -1,0 +1,5 @@
+.headerImg {
+  width: 100%;
+  max-height: 120px;
+  object-fit: fill;
+}

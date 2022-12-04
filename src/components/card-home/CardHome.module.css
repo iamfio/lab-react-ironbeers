@@ -1,0 +1,12 @@
+
+.cardHome {
+  width: 20rem;
+  margin-top: 1rem;
+  padding: 1rem 0.5rem;
+  object-fit: fill;
+
+}
+
+.cardHome img {
+  width: 100%;
+}
