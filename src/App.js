@@ -1,29 +1,7 @@
 import './App.css';
-import { useEffect, useState } from 'react';
-import { getAllBeers } from './api';
 import { Link } from 'react-router-dom';
 
 function App() {
-  // const [beers, setBeers] = useState([]);
-  // const [loading, setLoading] = useState(false);
-
-  // useEffect(() => {
-  //   // const loadBeers = async () => {
-  //   //   setLoading(true);
-  //   //   const response = await getAllBeer();
-  //   //   setBeers(response);
-  //   //   setLoading(false);
-  //   // };
-  //   // loadBeers()
-
-  //   (async () => {
-  //     setLoading(true);
-  //     setBeers(await getAllBeers());
-  //     setLoading(false);
-  //   })();
-  // }, []);
-  // console.log(beers.map((b) => b.name));
-
   return (
     <div className="container text-center">
       <div className="row h-50 ">
